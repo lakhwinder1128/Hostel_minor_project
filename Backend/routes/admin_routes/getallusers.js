@@ -23,7 +23,7 @@ router.get('/getallusers', fetchadmin,  async (req, res) => {
         }
         
         
-        // const users=await User.find().select("-password")
+        //// const users=await User.find().select("-password")
         // console.log(users)
         res.json({response:true,data:data})
     }
